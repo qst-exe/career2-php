@@ -22,6 +22,13 @@ readData();
 function readData(){
     $keijban_file = 'thread.txt';
 
+    // ファイルが存在しなければデフォルト値:0のファイルを作成する
+    if (! file_exists($keijban_file)) {
+        $fp = fopen($keijban_file, 'w');
+        fwrite($fp, '');
+        fclose($fp);
+    }
+
     $fp = fopen($keijban_file, 'rb');
 
     if ($fp){
