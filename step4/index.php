@@ -1,7 +1,3 @@
-<html>
-<head><title>PHP TEST</title></head>
-<body>
-
 <?php
 
 $counter_file = 'counter.txt';
@@ -35,7 +31,4 @@ if ($fp){
 fclose($fp);
 
 print('count:'.$counter);
-
-?>
-</body>
-</html>
+echo "<br><button onclick='window.location.reload();'>更新</button>";
