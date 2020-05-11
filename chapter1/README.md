@@ -1,6 +1,7 @@
 # Chapter1
 
-今回は型と変数、条件分岐について扱います。
+今回は型と変数、条件分岐、繰り返し処理について扱います。
+これが分かればPHPのプログラムは大抵のことはできます。
 
 ## 事前準備
 
@@ -180,7 +181,7 @@ if ($e === $f) {
 
 ### 課題4 
 
-おみくじ風のプログラムをif文を使って書いてください。
+おみくじ風のプログラムをif文を使って書いてください。おみくじ結果の条件は以下の通りです。
 
 | 結果 | 割合 |
 |---|---|
@@ -198,3 +199,21 @@ $rand = mt_rand(1, 100);
 // おみくじの結果を出力
 echo $result;
 ```
+
+
+### 課題5
+
+上のおみくじアプリをswitch文を使って書いてください。
+
+
+## 繰り返し処理
+
+[for](https://www.php.net/manual/ja/control-structures.for.php)
+
+[foreach](https://www.php.net/manual/ja/control-structures.foreach.php)
+
+[while](https://www.php.net/manual/ja/control-structures.while.php)
+
+### 課題6
+
+1から100までの数をプリントするプログラムを書いてください。ただし3の倍数のときは数の代わりに｢Fizz｣と、5の倍数のときは｢Buzz｣とプリントし、3と5両方の倍数の場合には｢FizzBuzz｣とプリントすること。
