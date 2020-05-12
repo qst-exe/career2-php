@@ -157,9 +157,80 @@ echo "徳川家康はレモンが好きです。<br>";
 
 ```
 
+### 課題5
+
+以下のレシートデータを表示するプログラムを書いてください。
+
+条件
+1. 商品のデータは下にある配列の商品データを使うこと
+2. 商品には消費税10%がかかるので、それも考慮に入れること
+
+```
+レシート
+消しゴム
+¥132
+
+レシート
+鉛筆
+ペン
+¥418
+```
+
+```php
+<?php
+
+$items_a = [
+    [
+        "name" => "消しゴム",
+        "count" => 2,
+        "price" => 60,
+    ]
+];
+
+$items_b = [
+    [
+        "name" => "鉛筆",
+        "count" => 3,
+        "price" => 60,
+    ],
+    [
+        "name" => "ペン",
+        "count" => 2,
+        "price" => 100,
+    ],
+];
+
+// ここにプログラムを書いてください 
+
+```
+
 ## きれいなコードを書こう
 
 [PSR2-コーディングガイド](http://www.infiniteloop.co.jp/docs/psr/psr-2-coding-style-guide.html)
 
-### 課題5
+### 課題6
 
+以下のプログラムを読みやすいように書き換えてください。
+
+```php
+<?php
+
+for($i = 1; $i <= 100; $i++){
+echo toFizzBuzz($i) . "<br>";
+}
+
+// 数字をFizzBuzz化する。
+function toFizzBuzz(int $i): string
+{
+$s = $i;switch ($i) {
+  case ($i%15===0):
+            $s = "FizzBuzz";break;
+        case ($i%3===0):
+            $s = "Fizz";
+     break;
+   case ($i%5 === 0):
+      $s = "Buzz";
+break;
+    }
+return $s;}
+```
