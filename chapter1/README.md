@@ -29,6 +29,10 @@ echo "hello, world!"; # でつけることもできる
 ?>
 ```
 
+### 課題0
+
+今の開発環境で「Hello, World」を出力してください。
+
 ## 型について
 
 [型](https://www.php.net/manual/ja/language.types.php)
@@ -55,6 +59,8 @@ echo(add("hoge", "fuga"));
 
 ```php
 <?php
+
+declare(strict_types=1);
 
 function add(int $i, int $j): int
 {
