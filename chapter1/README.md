@@ -83,9 +83,11 @@ function add(int $i, int $j): int
 DRY(Don’t Repeat Yourself)の原則
 
 
-## 課題1
+### 課題1
 
 以下の文字列を出力するプログラムを書いてください。(ヒントecho, brタグ)
+
+[回答例](https://github.com/qst-exe/carrier2-php/blob/master/chapter1/task1.php)
 
 ```
 私の名前は田中次郎です。
@@ -96,10 +98,14 @@ DRY(Don’t Repeat Yourself)の原則
 
 ### 課題2
 
+[回答例](https://github.com/qst-exe/carrier2-php/blob/master/chapter1/task2.php)
+
 課題1のプログラムを変数を使って書き換えてください。
 実行時の出力結果は変わらないようにお願いします。
 
 ### 課題3(おまけ)
+
+[回答例](https://github.com/qst-exe/carrier2-php/blob/master/chapter1/task3.php)
 
 「山田さんは40歳です。」という文章を「山田さんは1980年4月1日生まれの40歳です。」に変更してください。
 今日の日付に応じて、年齢が変わるとベストです。
@@ -191,6 +197,8 @@ if ($e === $f) {
 
 おみくじ風のプログラムをif文を使って書いてください。おみくじ結果の条件は以下の通りです。
 
+[回答例](https://github.com/qst-exe/carrier2-php/blob/master/chapter1/task4.php)
+
 | 結果 | 割合 |
 |---|---|
 | 大吉 | 20% |
@@ -208,8 +216,9 @@ $rand = mt_rand(1, 100);
 echo $result;
 ```
 
-
 ### 課題5
+
+[回答例](https://github.com/qst-exe/carrier2-php/blob/master/chapter1/task5.php)
 
 上のおみくじアプリをswitch文を使って書いてください。
 
