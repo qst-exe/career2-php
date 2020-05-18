@@ -23,6 +23,12 @@
 $area_list = ["福岡", "熊本", "鹿児島"];
 
 // 連想配列
+$john = [
+    "id" => 1,
+    "name" => "John",
+    "age" => 23,
+];
+
 $member_list = [
     [
         "id" => 1,
