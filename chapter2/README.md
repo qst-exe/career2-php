@@ -47,6 +47,8 @@ $member_list = [
 
 以下の配列から「マイケル」を取り出して出力してください。
 
+[回答例](https://github.com/qst-exe/carrier2-php/blob/master/chapter2/task1.php)
+
 ```php
 <?php
 
@@ -58,6 +60,8 @@ $members = ["ジョン", "マイケル", "トミー"];
 ### 課題2
 
 以下の配列を使って、「〇〇さんは✕✕歳です。」という文字を表示させてください。(ヒントはforeach)
+
+[回答例](https://github.com/qst-exe/carrier2-php/blob/master/chapter2/task2.php)
 
 ```
 期待する結果
@@ -92,6 +96,8 @@ $member_list = [
 やり方1：for文で頑張る
 
 やり方2：配列操作の関数を使う(ヒント「array やりたいこと」で検索をしてみてください)
+
+[回答例](https://github.com/qst-exe/carrier2-php/blob/master/chapter2/task3.php)
 
 ```
 期待する結果(食べ物の並び順は問わない)
@@ -155,6 +161,8 @@ function hoge(int x): int
 ### 課題4
 
 以下のコードを関数を使って書き変えてください。ただし、出力結果は変わらないようにすること
+
+[回答例](https://github.com/qst-exe/carrier2-php/blob/master/chapter2/task4.php)
 
 ```php
 <?php
