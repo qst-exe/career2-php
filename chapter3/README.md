@@ -43,21 +43,29 @@ git config --global user.email "メールアドレス"
 
 [SourceTree](https://www.sourcetreeapp.com/)
 
-## プロジェクトを作成してコピーする
+## エディタ
 
-[サンプルコード](https://github.com/qst-exe/career2-php-sample1)
+[VSCode](https://code.visualstudio.com/)
+
+[PhpStorm](https://www.jetbrains.com/ja-jp/phpstorm/)
 
 ## Gitについて
 
 詳しくは別の授業でやります。
 
 ![20191025-鹿児島mk3.006.jpeg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/36927/edf60379-bd3b-f9cf-83f6-d4a6e084a375.jpeg "20191025-鹿児島mk3.006.jpeg")
+
 ![20191025-鹿児島mk3.007.jpeg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/36927/e4d5b5db-34c3-16c0-8b09-b8f302f990c3.jpeg "20191025-鹿児島mk3.007.jpeg")
+
 ![20191025-鹿児島mk3.008.jpeg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/36927/f56897fb-810f-144b-e018-67d706371e7e.jpeg "20191025-鹿児島mk3.008.jpeg")
+
 ![20191025-鹿児島mk3.009.jpeg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/36927/9a490bf2-63cb-f584-c981-5582e7da9bab.jpeg "20191025-鹿児島mk3.009.jpeg")
+
 ![20191025-鹿児島mk3.010.jpeg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/36927/2b25297d-8cfb-c418-1a55-d1cce4cf6634.jpeg "20191025-鹿児島mk3.010.jpeg")
+
 ![20191025-鹿児島mk3.011.jpeg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/36927/7bfb1b57-0ee1-f3ff-96e0-3c9e47a19ee1.jpeg "20191025-鹿児島mk3.011.jpeg")
 
 
+## プロジェクトを作成してコピーする
 
-
+[サンプルコード](https://github.com/qst-exe/career2-php-sample1)
