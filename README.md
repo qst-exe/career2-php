@@ -14,9 +14,8 @@
 
 1. [チュートリアル(PHPを触ってみる)](https://github.com/qst-exe/carrier2-php/tree/master/tutorial)
     1. Hello Worldの実行
-    2. フォームの作成
-    3. ビンゴカードの作成
-    4. ファイルへの書き込み機能の作成
-    5. 掲示板機能の作成
- 1. [Chapter1(型, 変数, 条件分岐, 繰り返し処理)](https://github.com/qst-exe/carrier2-php/tree/master/chapter1)
- 1. [Chapter2(配列, 関数, 書き方)](https://github.com/qst-exe/carrier2-php/tree/master/chapter2)
+    1. フォームの作成
+    1. ファイルへの書き込み機能の作成
+1. [Chapter1(型, 変数, 条件分岐, 繰り返し処理)](https://github.com/qst-exe/carrier2-php/tree/master/chapter1)
+1. [Chapter2(配列, 関数, 書き方)](https://github.com/qst-exe/carrier2-php/tree/master/chapter2)
+1. [Chapter3(環境構築とサンプルアプリの作成)](https://github.com/qst-exe/carrier2-php/tree/master/chapter3) 
