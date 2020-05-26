@@ -66,7 +66,7 @@ git config --global user.email "メールアドレス"
 ![20191025-鹿児島mk3.011.jpeg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/36927/7bfb1b57-0ee1-f3ff-96e0-3c9e47a19ee1.jpeg "20191025-鹿児島mk3.011.jpeg")
 
 
-## 掲示板Appの作製 
+## 掲示板Appの作成
 
 プロジェクトを作成してコピーする
 
