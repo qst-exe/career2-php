@@ -27,6 +27,12 @@ Linux感覚でWindowsが操作できる。
 
 対象プロジェクトでこのコマンド
 
+(対象プロジェクトへの移動方法)
+
+```
+cd /C/xampp/htdocs/
+```
+
 ```
 git config user.name "ユーザー名"
 git config user.email "メールアドレス"
