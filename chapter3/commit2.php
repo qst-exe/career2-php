@@ -19,23 +19,26 @@
 
 const THREAD_FILE = 'thread.txt';
 
-readData();
+if($_SERVER["REQUEST_METHOD"] === "POST"){
+    writeData();
+}
 
-function readData(){
-    // ファイルが存在しなければデフォルト空文字のファイルを作成する
-    if (! file_exists(THREAD_FILE)) {
-        $fp = fopen(THREAD_FILE, 'w');
-        fwrite($fp, '');
-        fclose($fp);
-    }
+function writeData(){
+    $personal_name = $_POST['personal_name'];
+    $contents = $_POST['contents'];
+    $contents = nl2br($contents);
 
-    $fp = fopen(THREAD_FILE, 'rb');
+    $data = "<hr>\n";
+    $data = $data."<p>投稿者:".$personal_name."</p>\n";
+    $data = $data."<p>内容:</p>\n";
+    $data = $data."<p>".$contents."</p>\n";
+
+    $fp = fopen(THREAD_FILE, 'ab');
 
     if ($fp){
-        if (flock($fp, LOCK_SH)){
-            while (!feof($fp)) {
-                $buffer = fgets($fp);
-                print($buffer);
+        if (flock($fp, LOCK_EX)){
+            if (fwrite($fp,  $data) === FALSE){
+                print('ファイル書き込みに失敗しました');
             }
 
             flock($fp, LOCK_UN);
