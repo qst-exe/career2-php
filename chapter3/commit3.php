@@ -33,22 +33,8 @@ function readData(){
         fclose($fp);
     }
 
-    $fp = fopen(THREAD_FILE, 'rb');
-
-    if ($fp){
-        if (flock($fp, LOCK_SH)){
-            while (!feof($fp)) {
-                $buffer = fgets($fp);
-                print($buffer);
-            }
-
-            flock($fp, LOCK_UN);
-        }else{
-            print('ファイルロックに失敗しました');
-        }
-    }
-
-    fclose($fp);
+    $thread_text = file_get_contents(THREAD_FILE);
+    echo $thread_text;
 }
 
 function writeData(){
