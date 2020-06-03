@@ -19,11 +19,7 @@
 
 const THREAD_FILE = 'thread.txt';
 
-if($_SERVER["REQUEST_METHOD"] === "POST"){
-    writeData();
-}
-
-function writeData(){
+function writeData() {
     $personal_name = $_POST['personal_name'];
     $contents = $_POST['contents'];
     $contents = nl2br($contents);
@@ -33,7 +29,7 @@ function writeData(){
     $data = $data."<p>内容:</p>\n";
     $data = $data."<p>".$contents."</p>\n";
 
-    $fp = fopen(THREAD_FILE, 'ab');
+    $fp = fopen(THREAD_FILE, 'a');
 
     if ($fp){
         if (flock($fp, LOCK_EX)){
@@ -48,6 +44,10 @@ function writeData(){
     }
 
     fclose($fp);
+}
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    writeData();
 }
 ?>
 

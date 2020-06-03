@@ -82,9 +82,9 @@ git config --global user.email "メールアドレス"
 
 ### タスクの分解
 
-1. 入力フォームを作成する
-2. 送信したフォームデータを保存できるようにする
-3. 保存したフォームデータを表示できるようにする
+1. 入力フォームを作成する [完成したコード](https://github.com/qst-exe/carrier2-php/blob/master/chapter3/commit1.php)
+2. 送信したフォームデータを保存できるようにする [完成したコード](https://github.com/qst-exe/carrier2-php/blob/master/chapter3/commit2.php)
+3. 保存したフォームデータを表示できるようにする [完成したコード](https://github.com/qst-exe/carrier2-php/blob/master/chapter3/commit3.php)
 
 ### 課題1 
 
