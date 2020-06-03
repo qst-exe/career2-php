@@ -4,7 +4,7 @@
 
 今までrept.itで開発していたものが自分のPCの内で開発できるようになります。
 
-[前回までのプログラム](https://github.com/qst-exe/carrier2-php/blob/master/chapter3/commit1.php)
+[前回までのプログラム](https://github.com/qst-exe/carrier2-php/blob/master/chapter3/commit3.php)
 
 ## 困ったときに見るべきサイト
 
