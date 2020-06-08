@@ -61,6 +61,8 @@ git config --global user.email "メールアドレス"
 
 詳しくは別の授業でやります。
 
+[GitとGithubの基本知識](https://qiita.com/moonbass630/items/383fc8300a83784e4c82)
+
 ![20191025-鹿児島mk3.006.jpeg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/36927/edf60379-bd3b-f9cf-83f6-d4a6e084a375.jpeg "20191025-鹿児島mk3.006.jpeg")
 
 ![20191025-鹿児島mk3.007.jpeg](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/36927/e4d5b5db-34c3-16c0-8b09-b8f302f990c3.jpeg "20191025-鹿児島mk3.007.jpeg")
