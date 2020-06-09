@@ -92,10 +92,27 @@ git config --global user.email "メールアドレス"
 
 今回作成したプログラムをネット上に公開します。
 
-### アカウント登録
+### 1. アカウント登録
 
 - [GitHub](https://github.com)
 - [repl.it](https://repl.it)
+
+### 2. リポジトリをForkして、ローカルに環境を構築する
+
+```
+git clone {Forkしたリポジトリ}
+```
+
+### 3. 既に作成してあるコードをPushする
+
+```
+git commit -am {編集内容}
+git push origin master
+```
+
+### 4. repl.itとGitHubを連携してプロジェクト作成
+
+`.replit` がない人はこの設定を記載する
 
 ```
 language = "php7"
