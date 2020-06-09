@@ -88,6 +88,20 @@ git config --global user.email "メールアドレス"
 2. 送信したフォームデータを保存できるようにする [完成したコード](https://github.com/qst-exe/carrier2-php/blob/master/chapter3/commit2.php)
 3. 保存したフォームデータを表示できるようにする [完成したコード](https://github.com/qst-exe/carrier2-php/blob/master/chapter3/commit3.php)
 
+## デプロイについて
+
+今回作成したプログラムをネット上に公開します。
+
+### アカウント登録
+
+- [GitHub](https://github.com)
+- [repl.it](https://repl.it)
+
+```
+language = "php7"
+run = "php -S 0.0.0.0:8000 -t ."
+```
+
 ### 課題1 
 
 スレッドに投稿日時を表示してみてください。
