@@ -99,6 +99,8 @@ git config --global user.email "メールアドレス"
 
 ### 2. リポジトリをForkして、ローカルに環境を構築する
 
+[Forkするリポジトリ](https://github.com/qst-exe/career2-php-thread)
+
 ```
 git clone {Forkしたリポジトリ}
 ```
