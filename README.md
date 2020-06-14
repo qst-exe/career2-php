@@ -19,3 +19,4 @@
 1. [Chapter1(型, 変数, 条件分岐, 繰り返し処理)](https://github.com/qst-exe/carrier2-php/tree/master/chapter1)
 1. [Chapter2(配列, 関数, 書き方)](https://github.com/qst-exe/carrier2-php/tree/master/chapter2)
 1. [Chapter3(環境構築とサンプルアプリの作成)](https://github.com/qst-exe/carrier2-php/tree/master/chapter3) 
+1. [Chapter4(クラスについて)](https://github.com/qst-exe/carrier2-php/tree/master/chapter4) 
