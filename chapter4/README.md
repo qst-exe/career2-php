@@ -9,6 +9,10 @@
 - [PHP入門](https://www.javadrive.jp/php/)
 - [PHPマニュアル](https://www.php.net/manual/ja/index.php)
 
+## クラスに入る前に
+
+CSRF対策の実装
+
 ## クラスとは
 
 [クラスの基礎](https://www.php.net/manual/ja/language.oop5.basic.php)
