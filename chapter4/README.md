@@ -11,7 +11,7 @@
 
 ## クラスに入る前に
 
-CSRF対策の実装
+CSRF対策の実装 [サンプルコード](https://github.com/qst-exe/career2-php-thread/blob/dev/index.php)
 
 ## クラスとは
 
