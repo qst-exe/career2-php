@@ -17,6 +17,8 @@ CSRF対策の実装 [サンプルコード](https://github.com/qst-exe/career2-p
 
 [クラスの基礎](https://www.php.net/manual/ja/language.oop5.basic.php)
 
+[クラスについてのスライド](https://docs.google.com/presentation/d/1PRWiSHmD7vePoipqRrc0Ya2aNXR-uunYGXbGEjCyc4c/edit?usp=sharing)
+
 ### 課題1
 
 掲示板Appをクラス(Threadクラス)を使って書き換えてください。
