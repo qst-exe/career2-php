@@ -16,7 +16,7 @@
 <h2>スレッド</h2>
 
 <form method="POST" action="<?php print($_SERVER['PHP_SELF']) ?>">
-    <inpud type="hidden" name="method" value="DELETE">
+    <input type="hidden" name="method" value="DELETE">
     <button type="submit">投稿を全削除する</button>
 </form>
 
