@@ -125,17 +125,23 @@ run = "php -S 0.0.0.0:8000 -t ."
 
 スレッドに投稿日時を表示してみてください。
 
+[回答例](https://github.com/qst-exe/carrier2-php/blob/master/chapter3/commit4.php)
+
 PHPの[date](https://www.php.net/manual/ja/function.date.php) 関数を使うと楽です。
 
 ### 課題2 
 
 投稿を全削除する機能をつけてください。
 
+[回答例](https://github.com/qst-exe/carrier2-php/blob/master/chapter3/commit5.php)
+
 `thread.txt` を空にする処理を実装してボタンを押したときにそれを実行するようになっていればOKです。
 
 ### 課題3 
 
 投稿フォームをカスタマイズしてみてください。
+
+[回答例](https://github.com/qst-exe/carrier2-php/blob/master/chapter3/commit6.php)
 
 自力でCSSで書いても、[Bootstrap](https://getbootstrap.com/) を使ってもOKです。
 
