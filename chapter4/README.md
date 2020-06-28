@@ -11,6 +11,8 @@
 
 ## クラスに入る前に
 
+コード共有ツール [floobits](https://floobits.com/qst-exe/career2-php-thread/file/index.php:1)
+
 CSRF対策の実装 [サンプルコード](https://github.com/qst-exe/career2-php-thread/blob/dev/index.php)
 
 ## クラスとは
