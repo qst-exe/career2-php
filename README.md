@@ -24,3 +24,4 @@
 ## おまけ
 
 - [HTML/CSSについて](https://docs.google.com/presentation/d/1yxOCtZc6oOuCo-lqpSG5ZxvkGpqAx7qQT5o8z3lDlYE/edit#slide=id.g89d8af4848_0_0)
+- [データベースについて](https://docs.google.com/presentation/d/1yP06dB2DNpq79V-D0jb1avFbeVXqKYhosDGgzUqTfr0/edit#slide=id.g89d8af4848_0_0)
