@@ -24,11 +24,17 @@ CSRF対策の実装 [サンプルコード](https://github.com/qst-exe/career2-p
 ### 課題1
 
 掲示板Appをクラス(Threadクラス)を使って書き換えてください。
+(メソッドはこの通りでなくても大丈夫です)
 
 ```php
 <?php
 
 class Thread {
+
+    public function __construct()
+    {
+
+    }
     
     public function getList() {
     
