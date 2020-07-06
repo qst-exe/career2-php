@@ -20,9 +20,13 @@
 1. [Chapter2(配列, 関数, 書き方)](https://github.com/qst-exe/carrier2-php/tree/master/chapter2)
 1. [Chapter3(環境構築とサンプルアプリの作成)](https://github.com/qst-exe/carrier2-php/tree/master/chapter3) 
 1. [Chapter4(クラスについて)](https://github.com/qst-exe/carrier2-php/tree/master/chapter4) 
+1. [Chapter5(データベースについて)](https://github.com/qst-exe/carrier2-php/tree/master/chapter5) 
 
 ## おまけ
 
 - [HTML/CSSについて](https://docs.google.com/presentation/d/1yxOCtZc6oOuCo-lqpSG5ZxvkGpqAx7qQT5o8z3lDlYE/edit#slide=id.g89d8af4848_0_0)
 - [データベースについて](https://docs.google.com/presentation/d/1yP06dB2DNpq79V-D0jb1avFbeVXqKYhosDGgzUqTfr0/edit#slide=id.g89d8af4848_0_0)
+
+### 困ったときのTips
+
 - [GitにPushできないとき](https://wak-tech.com/archives/933)
