@@ -34,6 +34,15 @@ PDOの使い方
 - [https://www.javadrive.jp/php/pdo/](https://www.javadrive.jp/php/pdo/)
 - [https://www.php.net/manual/ja/class.pdo.php](https://www.php.net/manual/ja/class.pdo.php)
 
+
+### よりシステム的にDBを管理する
+
+現状の問題点
+
+- アイパスが丸わかり
+- スキーマが共有されていない
+
+
 課題1が終わったら、[composer](https://getcomposer.org/)をダウンロードして、 `composer.json` を入れ替える。
 
 ```json:composer.json
@@ -59,6 +68,58 @@ PDOの使い方
 ```
 
 `composer.json` を更新したら `composer install` を実行してください。(動画参照)
+
+```
+vendor/bin/phpmig init
+```
+
+```
+vendor/bin/phpmig generate CreateThread
+```
+
+
+```
+<?php
+
+use Phpmig\Migration\Migration;
+
+class CreateThread extends Migration
+{
+    /**
+     * Do the migration
+     */
+    public function up()
+    {
+        $sql = <<<EOT
+CREATE TABLE IF NOT EXISTS `thread` (
+`id` int(11) AUTO_INCREMENT,
+`name` varchar(255) NOT NULL,
+`content` varchar(255) NOT NULL,
+`created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+`deleted_at` DATETIME DEFAULT NULL,
+PRIMARY KEY (`id`)
+) DEFAULT CHARSET=utf8;
+EOT;
+        $container = $this->getContainer();
+        $container['db']->query($sql);
+    }
+
+    /**
+     * Undo the migration
+     */
+    public function down()
+    {
+        $sql = "DROP TABLE `thread`;";
+        $container = $this->getContainer();
+        $container['db']->query($sql);
+    }
+}
+```
+
+```
+vendor/bin/phpmig migrate 
+```
+
 
 ### 課題2
 
