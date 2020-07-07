@@ -14,7 +14,20 @@ PHPとMySQLを使ったアプリケーションの連携の実装を行います
 ### 課題1
 
 データベースを使って掲示板アプリを書き換えてください。
-なお、以前の投稿は消しても構いません。.
+なお、以前の投稿は消しても構いません。
+
+ヒント：スキーマは以下のものを使ってもよいです。
+
+```
+CREATE TABLE IF NOT EXISTS `thread` (
+`id` int(11) AUTO_INCREMENT,
+`name` varchar(255) NOT NULL,
+`content` varchar(255) NOT NULL,
+`created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+`deleted_at` DATETIME DEFAULT NULL,
+PRIMARY KEY (`id`)
+) DEFAULT CHARSET=utf8;
+```
 
 ### 課題2
 
