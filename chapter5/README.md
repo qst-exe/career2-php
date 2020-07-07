@@ -18,7 +18,7 @@ PHPとMySQLを使ったアプリケーションの連携の実装を行います
 
 ヒント：スキーマは以下のものを使ってもよいです。
 
-```
+```sql
 CREATE TABLE IF NOT EXISTS `thread` (
 `id` int(11) AUTO_INCREMENT,
 `name` varchar(255) NOT NULL,
@@ -28,6 +28,32 @@ CREATE TABLE IF NOT EXISTS `thread` (
 PRIMARY KEY (`id`)
 ) DEFAULT CHARSET=utf8;
 ```
+
+課題1が終わったら、[composer](https://getcomposer.org/)をダウンロードして、 `composer.json` を入れ替える。
+
+```json:composer.json
+{
+    "name": "career2-php/career2-php-sample1",
+    "require": {
+        "davedevelopment/phpmig": "^1.6",
+        "vlucas/phpdotenv": "^5.0",
+        "pimple/pimple": "^3.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "scripts": {
+        "sniffer": [
+            "./vendor/bin/phpcs --standard=phpcs.xml ./"
+        ],
+        "sniffer-rewrite": [
+            "./vendor/bin/phpcbf --standard=phpcs.xml ./"
+        ]
+    }
+}
+```
+
+`composer.json` を更新したら `composer install` を実行してください。(動画参照)
 
 ### 課題2
 
