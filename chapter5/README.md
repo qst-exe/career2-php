@@ -29,6 +29,11 @@ PRIMARY KEY (`id`)
 ) DEFAULT CHARSET=utf8;
 ```
 
+PDOの使い方
+
+- [https://www.javadrive.jp/php/pdo/](https://www.javadrive.jp/php/pdo/)
+- [https://www.php.net/manual/ja/class.pdo.php](https://www.php.net/manual/ja/class.pdo.php)
+
 課題1が終わったら、[composer](https://getcomposer.org/)をダウンロードして、 `composer.json` を入れ替える。
 
 ```json:composer.json
