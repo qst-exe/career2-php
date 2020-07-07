@@ -147,6 +147,14 @@ $container['phpmig.migrations_path'] = __DIR__ . DIRECTORY_SEPARATOR . 'migratio
 return $container;
 ```
 
+`.env` を作成し、環境変数を以下のように設定する。
+
+```
+DB_USER="root"
+DB_NAME="thread"
+DB_PASSWORD="password"
+```
+
 ```
 vendor/bin/phpmig migrate 
 ```
