@@ -76,6 +76,9 @@ PDOの使い方
 
 `composer.json` を更新したら `composer install` を実行してください。(動画参照)
 
+
+##### ここまで7/15までの課題
+
 ```
 vendor/bin/phpmig init
 ```
