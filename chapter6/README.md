@@ -28,3 +28,9 @@
 リポジトリは以下の箇所からforkするか、自分で作成するかしてください。
 
 [https://github.com/qst-exe/career2-php-todo](https://github.com/qst-exe/career2-php-todo)
+
+
+## ヒント
+
+1. このアプリの実装に必要なことを分解してみてください。
+1. 参考までにHTMLを[ここ](https://raw.githubusercontent.com/qst-exe/career2-php/master/chapter6/sample.html)に貼っておきます。
