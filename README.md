@@ -21,6 +21,7 @@
 1. [Chapter3(環境構築とサンプルアプリの作成)](https://github.com/qst-exe/carrier2-php/tree/master/chapter3) 
 1. [Chapter4(クラスについて)](https://github.com/qst-exe/carrier2-php/tree/master/chapter4) 
 1. [Chapter5(データベースについて)](https://github.com/qst-exe/carrier2-php/tree/master/chapter5) 
+1. [Chapter6(今までの復習)](https://github.com/qst-exe/carrier2-php/tree/master/chapter6) 
 
 ## おまけ
 
