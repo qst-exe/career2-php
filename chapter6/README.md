@@ -38,3 +38,10 @@
 
 1. このアプリの実装に必要なことを分解してみてください。
 1. 参考までにHTMLを[ここ](https://raw.githubusercontent.com/qst-exe/career2-php/master/chapter6/sample.html)に貼っておきます。
+
+### 困ったときのTips
+
+- [環境構築の動画](https://youtu.be/XwtassK4Q4I)
+- [Composerのダウンロード](https://youtu.be/tdFiUL4o_5g)
+- [GitへのPushの動画](https://youtu.be/NNjIwnCVsCg)
+- [GitにPushできないとき](https://wak-tech.com/archives/933)
