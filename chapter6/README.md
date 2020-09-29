@@ -24,8 +24,11 @@
 
 ### 追加の課題
 
-1. タスクに画像を添付することができる
+![localhost_3000_.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/36927/61f2a570-7f36-e473-601e-eaf09f7a5936.png "localhost_3000_.png")
+
 1. 任意のタスクを削除することができる
+1. タスクに画像を添付することができる
+  1. [ヒント](https://qiita.com/icelandnono/items/b6b3c06124d273f28673)
 
 ## リポジトリ
 
