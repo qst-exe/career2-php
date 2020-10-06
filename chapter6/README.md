@@ -29,6 +29,8 @@
 1. 任意のタスクを削除することができる
 1. タスクに画像を添付することができる
 
+[現時点でのDB構造](https://docs.google.com/spreadsheets/d/1nBeaj9TKSgdsaentfXHGfnfgchWSK7y1221q8K3OOfY/edit#gid=0)
+
 ## リポジトリ
 
 リポジトリは以下の箇所からforkするか、自分で作成するかしてください。
