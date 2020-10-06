@@ -55,6 +55,24 @@ CREATE DATABASE todo;
 show databases;
 ```
 
+### 2020-10-07 使うコマンド
+
+マイグレーションファイル作成
+
+```
+$ vendor/bin/phpmig generate AddTodoImage
+```
+
+カラム追加
+
+```
+ALTER TABLE `todo` ADD image VARCHAR(255) DEFAULT NULL after `status`
+```
+
+```
+ALTER TABLE `todo` DROP `image`;
+```
+
 ### 困ったときのTips
 
 - [環境構築の動画](https://youtu.be/XwtassK4Q4I)
