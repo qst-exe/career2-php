@@ -28,7 +28,6 @@
 
 1. 任意のタスクを削除することができる
 1. タスクに画像を添付することができる
-  1. [ヒント](https://qiita.com/icelandnono/items/b6b3c06124d273f28673)
 
 ## リポジトリ
 
@@ -41,6 +40,20 @@
 
 1. このアプリの実装に必要なことを分解してみてください。
 1. 参考までにHTMLを[ここ](https://raw.githubusercontent.com/qst-exe/career2-php/master/chapter6/sample.html)に貼っておきます。
+1. [PHPの画像アップロードについて](https://qiita.com/icelandnono/items/b6b3c06124d273f28673)
+
+### phpMyAdminの権限がないとき
+
+```
+// MySQLにアクセスする
+$ mysql -h localhost -u root -ppassword
+
+// DBを作る
+CREATE DATABASE todo;
+
+// DBを見る
+show databases;
+```
 
 ### 困ったときのTips
 
