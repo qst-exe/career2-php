@@ -71,6 +71,7 @@ $ vendor/bin/phpmig generate AddTodoImage
 ALTER TABLE `todo` ADD image VARCHAR(255) DEFAULT NULL after `status`
 ```
 
+カラム削除
 ```
 ALTER TABLE `todo` DROP `image`;
 ```
