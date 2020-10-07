@@ -81,6 +81,12 @@ ALTER TABLE `todo` DROP `image`;
 $ vendor/bin/phpmig migrate
 ```
 
+マイグレーションのロールバック
+
+```
+$ vendor/bin/phpmig rollback
+```
+
 ### 困ったときのTips
 
 - [環境構築の動画](https://youtu.be/XwtassK4Q4I)
