@@ -75,6 +75,11 @@ ALTER TABLE `todo` ADD image VARCHAR(255) DEFAULT NULL after `status`
 ALTER TABLE `todo` DROP `image`;
 ```
 
+マイグレーション実行
+```
+$ vendor/bin/phpmig migrate
+```
+
 ### 困ったときのTips
 
 - [環境構築の動画](https://youtu.be/XwtassK4Q4I)
