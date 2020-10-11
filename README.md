@@ -22,6 +22,7 @@
 1. [Chapter4(クラスについて)](https://github.com/qst-exe/carrier2-php/tree/master/chapter4) 
 1. [Chapter5(データベースについて)](https://github.com/qst-exe/carrier2-php/tree/master/chapter5) 
 1. [Chapter6(今までの復習)](https://github.com/qst-exe/carrier2-php/tree/master/chapter6) 
+1. [Chapter7(PHPフレームワークを使ったアプリ開発)](https://github.com/qst-exe/carrier2-php/tree/master/chapter7) 
 
 ## おまけ
 
