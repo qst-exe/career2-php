@@ -11,7 +11,7 @@ $ composer global require laravel/installer
 
 プロジェクトの作成
 ```
-$ composer create-project --prefer-dist laravel/laravel todo
+$ composer create-project "laravel/laravel=7.*" todo
 ```
 
 Laravelサーバの起動
